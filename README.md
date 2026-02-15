@@ -42,6 +42,7 @@ python main.py --sorted-root D:\sorted_output  # base for relative dest paths
 - `dest`: folder under `--sorted-root` (relative) or an absolute path. Folders are created if missing.
 
 ## Notes
+- Create Folders named, "True Trespasser","Yard Station","Not Sure" and "No Detections" under a "sorted" folder as destinations for validated files, if not already created.
 - Default sorted root is `<source_parent>/sorted`; change with `--sorted-root`. Pre-created destinations: `sorted/True Trespasser`, `sorted/Yard Station`, `sorted/Not Sure`, `sorted/No Detections`.
 - If a destination already has the same filename, it auto-renames with `__001`, `__002`, ...
 - For reliable playback, ensure the OS has codecs for your video formats (PySide6 uses the system media stack on Windows).
